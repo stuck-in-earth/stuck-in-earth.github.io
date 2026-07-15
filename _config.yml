@@ -5,3 +5,6 @@ plugins:
 
 title: Stuck in Earth (SiE) softwares
 description: github site for SiE
+
+show_downloads: false
+google_analytics: 666
