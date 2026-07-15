@@ -22,7 +22,7 @@ Something extra. [^1]
 term
 : definition
 
-![This is an image.](./flat_earth.svg)
+![This is an image.](./assets/images/flat_earth.svg)
 
 
 `this is code`
