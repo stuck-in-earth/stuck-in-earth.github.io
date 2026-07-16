@@ -1,4 +1,4 @@
-name: 'Deploy Website'
+name: 'build_and_deploy'
 
 # Trigger Configuration
 on:
