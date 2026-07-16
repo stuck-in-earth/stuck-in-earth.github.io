@@ -16,16 +16,15 @@ const createBanner = () : string[] => {
     
     let eleToPush = `<pre>${bannerString}</pre>`;
     banner.push(eleToPush);
-  }); 
-//   banner.push("<br><br>");
-//   banner.push("software solutions 4 u!");
-//   banner.push("mainly MIDI-related (so maybe not 4 u at all)");
-//   banner.push("<br>");
-//   banner.push("use the \"shell\" below to navigate the website");
-//   banner.push("type <span class='command'>about</span> for a bit of a blurb");
-//   banner.push("type <span class='command'>projects</span> to view the the current software offerings");
-//   banner.push("type <span class='command'>help</span> for a list of other commands");
-//   banner.push("<br><br>");
+  });  
+  banner.push("<br><br>");
+  banner.push("software solutions 4 u!");
+  banner.push("primarily python-based and mainly MIDI-related (so maybe not 4 u at all)");
+  banner.push("<br>");
+  banner.push("use the \"shell\" below to navigate the website (or be boring and use the mouse)");
+  banner.push("type <span class='command'>help</span> for a list of available commands");
+  banner.push(`type <span class='command'>repo</span> to view the GitHub repository or click <a href='${command.repoLink}' target='_blank'>here</a>.`);
+  banner.push("<br><br>");
   return banner;
 }
 

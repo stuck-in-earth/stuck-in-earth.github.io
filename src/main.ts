@@ -8,8 +8,8 @@ import { createWhoami } from "./commands/whoami";
 
 //mutWriteLines gets deleted and reassigned
 let mutWriteLines = document.getElementById("write-lines");
-let historyIdx = 0;
-let tempInput = "";
+let historyIdx = 0
+let tempInput = ""
 let userInput : string;
 let isSudo = false;
 let isPasswordInput = false;
