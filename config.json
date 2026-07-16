@@ -19,7 +19,7 @@
     "linkedin": ""
   },
   "aboutGreeting": "Hello. This is {Stuck in Earth} softwares...",
-	"bannerText":"<br><br>software solutions 4 u!<br>primarily python-based and mainly MIDI-related (so maybe not 4 u at all)<br>use the \"shell\" below to navigate the website (or be boring and use the mouse)<br>type <span class='command'>help</span> for a list of available commands<br>type <span class='command'>repo</span> to view the GitHub repository or click <a href='${command.repoLink}' target='_blank'>here</a><br><br>"
+  "bannerText":"<br><br>software solutions 4 u!<br>primarily python-based and mainly MIDI-related (so maybe not 4 u at all)<br>use the \"shell\" below to navigate the website (or be boring and use the mouse)<br>type <span class='command'>help</span> for a list of available commands<br>type <span class='command'>repo</span> to view the GitHub repository or click <a href='${command.repoLink}' target='_blank'>here</a><br><br>",
   "projects": [
     [
       "mappy",
