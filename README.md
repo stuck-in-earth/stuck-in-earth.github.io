@@ -5,4 +5,4 @@ _| (_ _|_      _ |    o ._    |_  _. ._ _|_ |_  |_
                                       softwares
 
 
-![Deploy Website](https://github.com/<username>/<repository>/actions/workflows/deploy.yml/badge.svg)
+![Deploy Website](https://github.com/stuck-in-earth/stuck-in-earth.github.io/actions/workflows/deploy.yml/badge.svg)
