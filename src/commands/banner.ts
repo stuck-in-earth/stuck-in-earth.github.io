@@ -20,7 +20,7 @@ const createBanner = () : string[] => {
   banner.push("<br><br>");
   banner.push("software solutions 4 u!");
   banner.push("mainly MIDI-related (so maybe not 4 u at all)");
-  banner.push("and it might be a website for a software developer, but don't judge on the website, it\'s just a bit o\' fun");
+  //banner.push("and it might be a website for a software developer, but don't judge on the website, it\'s just a bit o\' fun");
   banner.push("<br>");
   banner.push("use the \"shell\" below to navigate the website (or be boring and use the mouse)");
   banner.push("type <span class='command'>help</span> for a list of available commands");
