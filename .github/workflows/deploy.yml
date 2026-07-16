@@ -16,15 +16,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: 'Checkout Code'
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
       - name: 'Setup Node'
         uses: actions/setup-node@v6
         with:
-          node-version: '22'
+          node-version: '24'
       - name: 'Build Website'
         run: npm ci && npm run build
       - name: 'Upload artifact'
-        uses: actions/upload-pages-artifact@v4
+        uses: actions/upload-pages-artifact@v6
         with:
           path: ./dist
   # Deploy Job
@@ -41,4 +41,4 @@ jobs:
     steps:
       - name: 'Deploy to GitHub Pages'
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v6
