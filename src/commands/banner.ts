@@ -19,17 +19,19 @@ const createBanner = () : string[] => {
   });
   
    command.bannerText.forEach((line) => {
-     let bannerSubstring = "";
+     //let bannerSubstring = "";
      for (let i = 0; i < line.length; i++) {
        if (line[i] === " ") {
-         bannerSubstring += "&nbsp;";
+         //bannerSubstring += "&nbsp;";
+         banner.push("&nbsp;");
        } else {
-         bannerSubstring += line[i];
+         //bannerSubstring += line[i];
+         banner.push(line[i]);
        }
      }
      
-     let subToPush = `<pre>${bannerSubstring}</pre>`;
-     banner.push(subToPush);
+     //let subToPush = `<pre>${bannerSubstring}</pre>`;
+     //banner.push(subToPush);
    });
   
 //   banner.push("<br><br>");
