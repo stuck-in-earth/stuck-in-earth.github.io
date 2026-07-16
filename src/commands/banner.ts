@@ -18,19 +18,19 @@ const createBanner = () : string[] => {
     banner.push(eleToPush);
   });
   
-  command.bannerText.forEach((line) => {
-    let bannerSubstring = "";
-    for (let i = 0; i < line.length; i++) {
-      if (line[i] === " ") {
-        bannerSubstring += "&nbsp;";
-      } else {
-        bannerSubstring += line[i];
+    command.bannerText.forEach((line) => {
+      let bannerSubstring = "";
+      for (let i = 0; i < line.length; i++) {
+        if (line[i] === " ") {
+          bannerSubstring += "&nbsp;";
+        } else {
+          bannerSubstring += line[i];
+        }
       }
-    }
-    
-    let subToPush = `<pre>${bannerSubstring}</pre>`;
-    banner.push(subToPush);
-  });
+      
+      let subToPush = `<pre>${bannerSubstring}</pre>`;
+      banner.push(subToPush);
+    });
   
   //banner.push("<br><br>");
   //banner.push("software solutions 4 u!");
