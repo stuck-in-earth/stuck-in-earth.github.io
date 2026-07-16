@@ -22,8 +22,9 @@ const createBanner = () : string[] => {
   banner.push("primarily python-based and mainly MIDI-related (so maybe not 4 u at all)");
   banner.push("<br>");
   banner.push("use the \"shell\" below to navigate the website (or be boring and use the mouse)");
-  banner.push("type <span class='command'>help</span> for a list of available commands");
-  banner.push(`type <span class='command'>repo</span> to view the GitHub repository or click <a href='${command.repoLink}' target='_blank'>here</a>.`);
+  banner.push("type <span class='command'>about</span> for a little blurb");
+  banner.push("type <span class='command'>projects</span> to see current software offerings");
+  banner.push("type <span class='command'>help</span> for other commands");
   banner.push("<br><br>");
   return banner;
 }
