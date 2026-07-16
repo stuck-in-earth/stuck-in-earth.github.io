@@ -6,18 +6,18 @@
 " `-                                            -' ",
 "                                      softwares"
   ],
-  "title": "{Stuck in Earth} softwares",
+  "title": "{Stuck in Earth} Softwares",
   "username": "guest",
   "hostname": "SiE",
   "password": "password",
   "repoLink": "",
   "social": {
-    "email": "stuckinearth@hotmail.com",
-    "github": "stuck-in-earth",
-    "instagram": "@stuck-in-earth",
+    "email": "your@email.com",
+    "github": "glaklandy",
+    "instagram": "@glaklandy",
     "linkedin": ""
   },
-  "aboutGreeting": "Hello. This is {Stuck in Earth} softwares...",
+  "aboutGreeting": "This is {Stuck in Earth} softwares...",
   "projects": [
     [
       "mappy",
@@ -26,12 +26,7 @@
     ],
     [
       "steppy",
-      "flexible step sequencing for a variety of controllers",
-      ""
-    ],
-	[
-      "gappy",
-      "filling some of the gaps in your neglected//untended//dilapidated DAW...",
+      "flexible step sequencer for a variety of controllers",
       ""
     ]
   ],
