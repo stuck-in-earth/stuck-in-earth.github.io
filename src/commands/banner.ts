@@ -16,8 +16,22 @@ const createBanner = () : string[] => {
     
     let eleToPush = `<pre>${bannerString}</pre>`;
     banner.push(eleToPush);
-  });  
-  banner.push(command.bannerText);
+  });
+  
+  command.bannerText.forEach((line) => {
+    let bannerSubstring = "";
+    for (let i = 0; i < line.length; i++) {
+      if (line[i] === " ") {
+        bannerSubstring += "&nbsp;";
+      } else {
+        bannerSubstring += line[i];
+      }
+    }
+    
+    let subToPush = `<pre>${bannerSubstring}</pre>`;
+    banner.push(subToPush);
+  });
+  
   //banner.push("<br><br>");
   //banner.push("software solutions 4 u!");
   //banner.push("mainly MIDI-related (so maybe not 4 u at all)");
