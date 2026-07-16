@@ -32,7 +32,6 @@ const COMMANDS = ["help", "about", "projects", "whoami", "repo", "banner", "clea
 const HISTORY : string[] = [];
 const SUDO_PASSWORD = command.password;
 const REPO_LINK = command.repoLink;
-const CODENAME = command.codename;
 
 const scrollToBottom = () => {
   const MAIN = document.getElementById("main");
