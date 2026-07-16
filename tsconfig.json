@@ -6,8 +6,7 @@
     "lib": [
       "ES2020",
       "DOM",
-      "DOM.Iterable",
-      "ESNext"
+      "DOM.Iterable"
     ],
     "skipLibCheck": true,
     /* Bundler mode */
@@ -22,6 +21,6 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["./src/**/*"],
+  "include": ["src"],
   "base": "./"
 }
