@@ -1,0 +1,56 @@
+{
+  "ascii": [
+" ,- __                         _               -. ",
+"_| (_ _|_      _ |    o ._    |_  _. ._ _|_ |_  |_",
+" | __) |_ |_| (_ |<   | | |   |_ (_| |   |_ | | | ",
+" `-                                            -' ",
+"                                      softwares"
+  ],
+  "title": "{Stuck in Earth} Softwares",
+  "username": "guest",
+  "hostname": "SiE",
+  "password": "password",
+  "repoLink": "",
+  "social": {
+    "email": "your@email.com",
+    "github": "glaklandy",
+    "instagram": "@glaklandy",
+    "linkedin": ""
+  },
+  "aboutGreeting": "This is {Stuck in Earth} softwares...",
+  "projects": [
+    [
+      "mappy",
+      "get more from your MIDI...",
+      ""
+    ],
+    [
+      "steppy",
+      "flexible step sequencer for a variety of controllers",
+      ""
+    ]
+  ],
+  "colors": {
+    "background": "#0C0622",
+    "foreground": "#ccffff",
+    "banner": "#ff9933",
+    "border": {
+      "visible": true,
+      "color": "#ff9933"
+    },
+    "prompt": {
+      "default": "#ffffff",
+      "user": "#FE6BC9",
+      "host": "#70FDFF",
+      "input": "#ffffff"
+    },
+    "link": {
+      "text": "#0000ff",
+      "highlightColor": "#ffffff",
+      "highlightText": "#0000ff"
+    },
+    "commands": {
+      "textColor": "#ffffff"
+    }
+  }
+}
