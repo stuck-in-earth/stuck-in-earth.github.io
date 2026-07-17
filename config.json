@@ -31,12 +31,12 @@
     ],
 	[
       "gappy",
-      "filling some gaps in your neglected//untended//dilapidated DAW...",
+      "filling some gaps in neglected//untended//dilapidated DAWs...",
       ""
     ]
   ],
   "colors": {
-    "background": "#38669c",
+    "background": "#ff9933",
     "foreground": "#ccffff",
     "banner": "#ff9933",
     "border": {

@@ -69,17 +69,16 @@ div {
 
 @font-face {
   font-family: ascii;
-  font-weight: 900;
   src: url("./font/IBMPlexMono-Thin.ttf")
 }
 
 pre {
-  font-weight: 900;
   margin: 0;
   padding: 0;
-  line-height: 20px !important;
+  line-height: 24px !important;
   color: #FF9951;
   font-family: "ascii", monospace;
+  font-weight: 900;
 }
 
 input {
@@ -140,7 +139,6 @@ a:hover {
   margin-top: 3px;
 }
 
-
 #bar-5 {
   height: 1px;
   background-color: var(--border);
@@ -191,6 +189,7 @@ a:hover {
   pre {
     line-height: 12px !important;
     font-size: 9px;
+    font-weight: 900;
   }
 
   main {
