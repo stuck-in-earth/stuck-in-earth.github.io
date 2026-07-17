@@ -95,7 +95,7 @@ function enterKey() {
   }
 
   const div = document.createElement("div");
-  div.innerHTML = `<span id="prompt">${PROMPT.innerHTML}</span>${newUserInput}`;
+  div.innerHTML = `<span id="prompt">${PROMPT.innerHTML}</span> ${newUserInput}`;
 
   if (mutWriteLines.parentNode) {
     mutWriteLines.parentNode.insertBefore(div, mutWriteLines);
