@@ -69,6 +69,7 @@ div {
 
 @font-face {
   font-family: ascii;
+  font-weight: 900;
   src: url("./font/IBMPlexMono-Thin.ttf")
 }
 
