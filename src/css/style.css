@@ -2,7 +2,7 @@
 
 :root {
   font-family: 'IBM Plex Mono', monospace;
-  font-weight: 400;
+  font-weight: 200;
   --bg: #0C0623;
   --border: #FFADE2;
   --text: #F8DDE5;
@@ -78,7 +78,6 @@ pre {
   line-height: 20px !important;
   color: #FF9951;
   font-family: "ascii", monospace;
-  font-weight: 999;
 }
 
 input {
