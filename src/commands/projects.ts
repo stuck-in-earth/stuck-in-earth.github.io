@@ -10,9 +10,9 @@ const createProject = () : string[] => {
 
   command.projects.forEach((ele) => {
     let link = `<a href="${ele[2]}" target="_blank">${ele[0]}</a>`
-    string += SPACE.repeat(0);
+    string += SPACE.repeat(1);
     string += link;
-    string += SPACE.repeat(5 - ele[0].length);
+    string += SPACE.repeat(7 - ele[0].length);
     string += ele[1];
     projects.push(string);
     string = '';
