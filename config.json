@@ -21,7 +21,7 @@
   "projects": [
     [
       "mappy",
-      "get more from your MIDI...",
+      "get more mileage from your MIDI...",
       ""
     ],
     [
@@ -31,12 +31,12 @@
     ],
 	[
       "gappy",
-      "filling some of the gaps in your neglected//untended//dilapidated DAW...",
+      "filling some gaps in your neglected//untended//dilapidated DAW...",
       ""
     ]
   ],
   "colors": {
-    "background": "#0C0622",
+    "background": "#6699cc",
     "foreground": "#ccffff",
     "banner": "#ff9933",
     "border": {
