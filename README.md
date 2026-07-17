@@ -7,4 +7,4 @@ _| (_ _|_      _ |    o ._    |_  _. ._ _|_ |_  |_
 
 
 
-![Website deployment test](https://github.com/stuck-in-earth/stuck-in-earth.github.io/actions/workflows/deploy.yml/badge.svg)
+![Website deployment test](https://github.com/stuck-in-earth/stuck-in-earth.github.io/actions/workflows/update_website.yml/badge.svg)
