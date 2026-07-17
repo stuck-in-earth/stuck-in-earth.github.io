@@ -75,10 +75,10 @@ div {
 pre {
   margin: 0;
   padding: 0;
-  line-height: 12px !important;
+  line-height: 36px !important;
   color: #FF9951;
   font-family: "ascii", monospace;
-  font-weight: 400;
+  font-weight: 800;
 }
 
 input {
