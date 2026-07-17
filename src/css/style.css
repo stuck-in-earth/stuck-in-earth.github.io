@@ -73,6 +73,7 @@ div {
 }
 
 pre {
+  font-weight: 900;
   margin: 0;
   padding: 0;
   line-height: 20px !important;

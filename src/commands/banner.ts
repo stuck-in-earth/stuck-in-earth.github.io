@@ -22,9 +22,9 @@ const createBanner = () : string[] => {
   banner.push("mainly MIDI-related (so maybe not 4 u at all)");
   banner.push("<br>");
   banner.push("use the \"shell\" below to navigate the website");
-  banner.push("type <span class='command'>about</span> for a little blurb");
-  banner.push("type <span class='command'>projects</span> to see softwares");
-  banner.push("type <span class='command'>help</span> for other commands");
+  banner.push("> type <span class='command'>about</span> for a bit of a blurb");
+  banner.push("> type <span class='command'>projects</span> to see the softwares");
+  banner.push("> type <span class='command'>help</span> for other commands");
   banner.push("<br><br>");
   return banner;
 }
